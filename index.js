@@ -685,7 +685,6 @@ Hola *${pushname}*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Tomp3*
 ┃ _Audio de video_
-┠⊷️ *${prefix}Play (Nombre)*
 ┃ _Canciones_
 ┠⊷️ *${prefix}Tts (Texto)*
 ┃ _Texto a sonido_
@@ -2987,7 +2986,7 @@ exec(`ffmpeg -i ${anum} ${ran}`, (err) => {
   if (err) return reply('Error al convertir el sticker en vídeo')
   buffer = fs.readFileSync(ran)
   Lxa.sendMessage(from, buffer, video, {
-quoted: mek, caption: 'Mr.Pato'
+quoted: mek, caption: 'Satan'
   })
   fs.unlinkSync(ran)
 })
@@ -3184,7 +3183,7 @@ for (let mem of groupMembers) {
   teks += `┃ @${mem.jid.split('@')[0]}\n`
   members_id.push(mem.jid)
 }
-mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────♝😺  Ⓢᗩ𝐭𝓪ᑎ  ♣🐧────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
 break
 
 
@@ -3391,7 +3390,7 @@ reply(ind.satukos())
 						fs.unlinkSync(medimg)
 						if (err) return reply('No se pudo hacer :(')
 						buffer = fs.readFileSync(ran)
-						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Mr.Pato-Bot'})
+						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Satan-Bot'})
 						fs.unlinkSync(ran)
 					})
 					break
