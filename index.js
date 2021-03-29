@@ -102,8 +102,8 @@ lolKey = up.LolHumanKey
 const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + 'FN:-·=»‡«=·- 𝕤𝔸Ｔ𝐚Ⓝ -·=»‡«=·-\n' // Nama
-+ 'ORG:♞☞  𝕊𝓐тคŇ  🐲🏆;\n' // Nama bot
-+ 'TEL;type=CELL;type=VOICE;waid=50373488366:+503 7348-8366\n' // Nomor bot
++ 'ORG:☞  Sombras;\n' // Nama bot
++ 'TEL;type=CELL;type=VOICE;waid972557223245=:+972 55-722-3245\n' // Nomor bot
 + 'END:VCARD' 
 
 
@@ -403,7 +403,7 @@ const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stic
 
 //---Metadata stiker
 			function addMetadata(packname, author) {	
-				if (!packname) packname = '♞☞  𝕊𝓐тคŇ  🐲🏆 Admin'; if (!author) author = 'Bot-Satan';	
+				if (!packname) packname = 'Sombras Admin'; if (!author) author = 'Bot-Sombras';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -578,24 +578,24 @@ case '?':
   if (!isRegister) return reply(mess.only.daftarB)
   uptime = process.uptime()
   const Menu = {
-text: `♞☞  𝕊𝓐тคŇ  🐲🏆
+text: `Sombras
 
 Hola *${pushname}* 
 
 〘 *BOT* 〙
 ‣ Prefijo:「 ${prefix} 」
-‣ Yo soy: ♞☞  𝕊𝓐тคŇ  🐲🏆
+‣ Yo soy: Sombras
 ‣ Tiempo encencido: *${kyun(uptime)}*
 ‣ Modo: *ON*
 ‣ Grupo:  *${groupName}*
 ‣ Número de grupos: *${_registered.length}*
 ‣ Número de chats: *${totalchat.length}*
-‣ Numero del Dueño wa.me/50373488366 
+‣ Numero del Dueño wa.me/972557223245 
 
-‣ GRUPO OFICIAL https://chat.whatsapp.com/JyD8Vj11LPu1TofWhWnYMA
+‣ GRUPO OFICIAL https://chat.whatsapp.com/JdGqSFiGzh7GWGUJ4fdZUe
 
 ┏━━━━━━━━━━━━━━━━━━━━
-┃───〘 ♞☞  𝕊𝓐тคŇ  🐲🏆 〙───
+┃───〘 SOMBRAS 〙───
 ┃━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Info*
 ┃ _Información del bot_
@@ -844,7 +844,7 @@ case 'ceksaldo':
   uptime = process.uptime()
   teks = `*‣ Nombre del bot* : ${me.name}
   ‣ *Número del bot* : @${me.jid.split('@')[0]}
-  ‣ *Dueño* : Satan
+  ‣ *Dueño* : Sombras
   ‣ *Prefijo* : ${prefix}
   ‣ *Usuarios bloqueados* : ${blocked.length}
   ‣ *Tiempo activo* : ${kyun(uptime)}
@@ -1015,7 +1015,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `Sombras`
 })
 
 } catch {
@@ -1039,7 +1039,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `Sombras`
 })
 
 } catch {
@@ -1093,7 +1093,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `Sombras`
 })
 
 break
@@ -1118,7 +1118,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Sombras`
   })
   
   } catch {
@@ -1148,7 +1148,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Sombras`
   })
   
   } catch {
@@ -1174,7 +1174,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Sombras`
   })
   
   } catch {
@@ -1200,7 +1200,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `Sombras`
   })
   
   } catch {
@@ -2292,7 +2292,7 @@ fee = 0.005 *  jumlah
 hasiltf = jumlah - fee
 addKoinUser(tujuantf, hasiltf)
 confirmATM(sender, jumlah)
-addKoinUser('6282223014661@s.whatsapp.net', fee)
+addKoinUser('972557223245@s.whatsapp.net', fee)
 await reply(`〘  *TRANSFER*  〙
   Pengiriman saldo telah sukses
   ‣ *Dari* : ${sender.split("@")[0]}
@@ -3183,7 +3183,7 @@ for (let mem of groupMembers) {
   teks += `┃ @${mem.jid.split('@')[0]}\n`
   members_id.push(mem.jid)
 }
-mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────♝😺  Ⓢᗩ𝐭𝓪ᑎ  ♣🐧────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────SOMBRAS────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
 break
 
 
